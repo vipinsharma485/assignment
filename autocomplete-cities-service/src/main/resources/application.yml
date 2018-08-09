@@ -1,0 +1,12 @@
+server:
+ contextPath: /api/v1/autocompletecities
+ port: 8080
+
+
+api: 
+ program:
+  name: Autocomplete Cities Service
+ version: v1
+ 
+file:
+ path: src/main/resources/CityList.csv
