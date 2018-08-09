@@ -1,4 +1,4 @@
-#Spring Boot Application to autosuggest cities name
+## Spring Boot Application to autosuggest cities name
 
 - This application will suggest the city names to the user based on start entered by user in input fields.
 - Application is using TRIE data structure to store city names.
