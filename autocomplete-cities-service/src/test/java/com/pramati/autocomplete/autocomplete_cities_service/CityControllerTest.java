@@ -24,7 +24,7 @@ public class CityControllerTest {
 	private MockMvc mockMvc;
 
 	@Test
-	public void testGetDashboardApplications() throws Exception {
+	public void testSuggestCities() throws Exception {
 		String response = this.mockMvc.perform(get("/suggest_cities?start=De&atmost=1")).andDo(print())
 				.andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
 		assertNotNull(response);
