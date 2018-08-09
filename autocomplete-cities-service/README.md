@@ -1,4 +1,4 @@
-#Spring Boot Application to autosuggest cities name
+## Spring Boot Application to autosuggest city names
 
 - This application will suggest the city names to the user based on start entered by user in input fields.
 - Application is using TRIE data structure to store city names.
@@ -17,7 +17,7 @@
 - Default index to load city names is 0 that can be changed as per list provided in column index of configured file by making change in city.list.index property.
 
 
-### Running Examples
+### Running Service
 - Download the zip or clone the Git repository.
 - Unzip the zip file (if you downloaded one)
 - Open Command Prompt and Change directory (cd) to folder containing pom.xml
