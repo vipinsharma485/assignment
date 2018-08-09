@@ -17,7 +17,7 @@
 - Default index to load city names is 0 that can be changed as per list provided in column index of configured file by making change in city.list.index property.
 
 
-### Running Examples
+### Running Service
 - Download the zip or clone the Git repository.
 - Unzip the zip file (if you downloaded one)
 - Open Command Prompt and Change directory (cd) to folder containing pom.xml
