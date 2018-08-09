@@ -29,6 +29,9 @@ public class CityCollection {
 
 	@Value("${file.path}")
 	private String filePath;
+	
+	@Value("${city.list.index}")
+	private int index;
 
 	/** 
 	 * Load city list from filePath
@@ -44,7 +47,7 @@ public class CityCollection {
 			String line;
 			while ((line = br.readLine()) != null) {
 				String[] tokens = line.split(",");
-				this.insert(tokens[0]);
+				this.insert(tokens[index]);
 			}
 
 		} catch (IOException e) {

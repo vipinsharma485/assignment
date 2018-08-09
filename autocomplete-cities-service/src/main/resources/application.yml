@@ -10,3 +10,10 @@ api:
  
 file:
  path: src/main/resources/CityList.csv
+ 
+#file:
+# path: src/main/resources/All_India_pincode_data_26022018.csv
+
+city:
+ list:
+  index: 0
